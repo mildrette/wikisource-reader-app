@@ -297,6 +297,18 @@ pre code {
     text-decoration: none;
 }
 
+#docs h2,
+#faq h2,
+#privacy-policy h2{
+    mergin-top: 2rem;
+    mergin-bottom: 1rem;
+}
+
+#docs H3 {
+    mergin-top: 1.5rem;
+    mergin-bottom: 1rem;
+}
+
 /* Footer */
 
 footer {
