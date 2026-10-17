@@ -281,6 +281,15 @@ pre code {
     font-size: 1.25rem;
 }
 
+/* Documentation and FAQ readability */
+
+#docs p,
+#faq p,
+#privacy-policy p{
+    line-height: 1.7;
+    mergin-bottom: 1rem;
+}
+
 /* Documentation Header */
 #docs h2>a,
 #docs h3>a {
