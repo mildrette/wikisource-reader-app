@@ -1,3 +1,28 @@
+  // Active navigation link switching
+  function updateActiveNavLink() {
+    var scrollPosition = $(window).scrollTop();
+
+    $('.navbar-nav .nav-link.scroll').each(function() {
+      var section = $(this.hash);
+
+      if (section.length) {
+        var sectionTop = section.offset().top - 100;
+        var sectionBottom = sectionTop + section.outerHeight();
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+          $('.navbar-nav .nav-link').removeClass('active');
+          $(this).addClass('active');
+        }
+      }
+    });
+  }
+
+  $(window).on('scroll', updateActiveNavLink);
+  updateActiveNavLink();
+
+
+
+
 $(document).ready(function() {
 
   var scrollLink = $('.scroll');
