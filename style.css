@@ -1,3 +1,55 @@
+/* ---- Website color palette ---- */
+:root {
+    color-scheme: light;
+    --color-page: #f8f9fb;
+    --color-surface: #ffffff;
+    --color-surface-muted: #f0f3f7;
+    --color-text: #253247;
+    --color-text-muted: #596579;
+    --color-heading: #17263c;
+    --color-primary: #315c85;
+    --color-primary-hover: #244767;
+    --color-link: #285f91;
+    --color-link-hover: #19476f;
+    --color-border: #dce3eb;
+    --color-focus: #d28b24;
+    --color-code-background: #eef2f6;
+    --color-code-text: #253247;
+    --color-navbar: #ffffff;
+    --color-navbar-text: #253247;
+    --color-success: #247747;
+    --color-danger: #b42332;
+    --shadow-card: 0 4px 18px rgba(31, 48, 70, 0.07);
+}
+ 
+.dark-mode {
+    color-scheme: dark;
+    --color-page: #171d27;
+    --color-surface: #202937;
+    --color-surface-muted: #293545;
+    --color-text: #dce4ee;
+    --color-text-muted: #aab7c8;
+    --color-heading: #f0f4fa;
+    --color-primary: #91bce4;
+    --color-primary-hover: #b2d4f3;
+    --color-link: #a8cefa;
+    --color-link-hover: #d0e4ff;
+    --color-border: #3b4859;
+    --color-focus: #f0bd64;
+    --color-code-background: #111823;
+    --color-code-text: #e0e8f2;
+    --color-navbar: #202937;
+    --color-navbar-text: #e5ebf3;
+    --color-success: #86d6a2;
+    --color-danger: #ff9ba4;
+    --shadow-card: 0 4px 18px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
 /* Navbar */
 
 body {
