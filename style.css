@@ -297,6 +297,20 @@ pre code {
     text-decoration: none;
 }
 
+#docs p a,
+#docs li a, #faq p a, #faq li a, #privacy-policy p a, #privacy-policy li a {
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+#docs p a:hover,
+#docs li a:hover, #faq p a:hover, #faq li a:hover,
+#privacy-policy p a:hover,
+#privacy-policy li a:hover {
+    text-decoration-thickness:2px ;
+}
+
+
 #docs h2,
 #faq h2,
 #privacy-policy h2{
